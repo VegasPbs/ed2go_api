@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="https://api.ed2go.com/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" targetNamespace="https://api.ed2go.com/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">&lt;div style='background-color: #003366; color: White; text-align: center; padding: 20px;font-size: larger; font-weight: bold;'&gt;VERSION 4.1&lt;br/&gt;(&lt;a href='./WhatsNew.aspx' target='_blank' style='color:White;font-size:.8em;'&gt;Whats New?&lt;/a&gt;)&lt;/div&gt;</wsdl:documentation>
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="https://api.ed2go.com/">
+      <s:element name="GetCategories">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="APIKey" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="CategoryIDs" type="tns:ArrayOfInt" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfInt">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="CategoryID" type="s:int" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="GetCategoriesResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CategoriesGetResponse" type="tns:CategoryListResponse" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="CategoryListResponse">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="Result" type="tns:Result" />
+          <s:element minOccurs="0" maxOccurs="1" name="Categories" type="tns:Categories" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="Result">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="Success" type="s:boolean" />
+          <s:element minOccurs="0" maxOccurs="1" name="Errors" type="tns:ArrayOfError" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfError">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="Error" nillable="true" type="tns:Error" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="Error">
+        <s:simpleContent>
+          <s:extension base="s:string">
+            <s:attribute name="code" type="tns:ErrorCode" use="required" />
+          </s:extension>
+        </s:simpleContent>
+      </s:complexType>
+      <s:simpleType name="ErrorCode">
+        <s:restriction base="s:string">
+          <s:enumeration value="None" />
+          <s:enumeration value="InvalidParameter" />
+          <s:enumeration value="MissingParameter" />
+          <s:enumeration value="DuplicateParameter" />
+          <s:enumeration value="UnknownServerError" />
+        </s:restriction>
+      </s:simpleType>
+      <s:complexType name="Categories">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="Category" nillable="true" type="tns:Category" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="Category">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="Name" type="tns:EncodedValue" />
+          <s:element minOccurs="0" maxOccurs="1" name="Description" type="tns:EncodedValue" />
+          <s:element minOccurs="0" maxOccurs="1" name="CourseCodes" type="tns:ArrayOfString" />
+        </s:sequence>
+        <s:attribute name="CategoryID" type="s:int" use="required" />
+      </s:complexType>
+      <s:complexType name="EncodedValue" mixed="true">
+        <s:attribute name="type" type="tns:EncodedValueType" />
+      </s:complexType>
+      <s:simpleType name="EncodedValueType">
+        <s:restriction base="s:string">
+          <s:enumeration value="Text" />
+          <s:enumeration value="Url" />
+          <s:enumeration value="Html" />
+        </s:restriction>
+      </s:simpleType>
+      <s:complexType name="ArrayOfString">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="CourseCode" nillable="true" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="GetCategoryList">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="APIKey" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetCategoryListResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CategoryListGetResponse" type="tns:CategoryListResponse" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetCourses">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="APIKey" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="CoursesFilter" nillable="true" type="tns:CoursesFilter" />
+            <s:element minOccurs="0" maxOccurs="1" name="IncludeFields" type="tns:ArrayOfCourseIncludeField" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="CoursesFilter">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="CourseCodes" type="tns:ArrayOfString" />
+          <s:element minOccurs="0" maxOccurs="1" name="ReleaseDateRange" type="tns:DateRange" />
+          <s:element minOccurs="0" maxOccurs="1" name="DiscontinueDateRange" type="tns:DateRange" />
+          <s:element minOccurs="0" maxOccurs="1" name="LastModifiedDateRange" type="tns:DateRange" />
+          <s:element minOccurs="0" maxOccurs="1" name="TitleContains" type="tns:ArrayOfString1" />
+          <s:element minOccurs="0" maxOccurs="1" name="StartDatesRange" type="tns:StartDateRange" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="DateRange">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="RangeStartDate" type="tns:Date" />
+          <s:element minOccurs="0" maxOccurs="1" name="RangeEndDate" type="tns:Date" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="Date" mixed="true" />
+      <s:complexType name="ArrayOfString1">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="SearchTerm" nillable="true" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="StartDateRange">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="RangeStartDate" type="tns:Date" />
+          <s:element minOccurs="0" maxOccurs="1" name="RangeEndDate" type="tns:Date" />
+          <s:element minOccurs="1" maxOccurs="1" name="NoStartDates" type="s:boolean" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfCourseIncludeField">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="FieldName" type="tns:CourseIncludeField" />
+        </s:sequence>
+      </s:complexType>
+      <s:simpleType name="CourseIncludeField">
+        <s:restriction base="s:string">
+          <s:enumeration value="CategoryIDs" />
+          <s:enumeration value="Demo" />
+          <s:enumeration value="Details" />
+          <s:enumeration value="DiscontinueDate" />
+          <s:enumeration value="Duration" />
+          <s:enumeration value="FAQs" />
+          <s:enumeration value="Hours" />
+          <s:enumeration value="Image" />
+          <s:enumeration value="Instructor" />
+          <s:enumeration value="Index" />
+          <s:enumeration value="LastModifiedDate" />
+          <s:enumeration value="Objectives" />
+          <s:enumeration value="Outline" />
+          <s:enumeration value="Overview" />
+          <s:enumeration value="Prerequisites" />
+          <s:enumeration value="RelatedCourses" />
+          <s:enumeration value="ReleaseDate" />
+          <s:enumeration value="Requirements" />
+          <s:enumeration value="StartDates" />
+          <s:enumeration value="StudentReviews" />
+          <s:enumeration value="Summary" />
+          <s:enumeration value="Title" />
+        </s:restriction>
+      </s:simpleType>
+      <s:element name="GetCoursesResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CoursesGetResponse" type="tns:CoursesResponse" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="CoursesResponse">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="Result" type="tns:Result" />
+          <s:element minOccurs="0" maxOccurs="1" name="Courses" type="tns:ArrayOfCourse" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfCourse">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="Course" nillable="true" type="tns:Course" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="Course">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="Title" type="tns:EncodedValue" />
+          <s:element minOccurs="0" maxOccurs="1" name="Summary" type="tns:EncodedValue" />
+          <s:element minOccurs="0" maxOccurs="1" name="Overview" type="tns:EncodedValue" />
+          <s:element minOccurs="0" maxOccurs="1" name="Details" type="tns:EncodedValue" />
+          <s:element minOccurs="0" maxOccurs="1" name="Outline" type="tns:EncodedValue" />
+          <s:element minOccurs="0" maxOccurs="1" name="Objectives" type="tns:EncodedValue" />
+          <s:element minOccurs="0" maxOccurs="1" name="FAQs" type="tns:EncodedValue" />
+          <s:element minOccurs="0" maxOccurs="1" name="Requirements" type="tns:EncodedValue" />
+          <s:element minOccurs="0" maxOccurs="1" name="Prerequisites" type="tns:EncodedValue" />
+          <s:element minOccurs="0" maxOccurs="1" name="Instructor" type="tns:EncodedValue" />
+          <s:element minOccurs="0" maxOccurs="1" name="Duration" type="tns:Duration" />
+          <s:element minOccurs="0" maxOccurs="1" name="Hours" nillable="true" type="s:decimal" />
+          <s:element minOccurs="0" maxOccurs="1" name="Image" type="tns:EncodedValue" />
+          <s:element minOccurs="0" maxOccurs="1" name="Index" type="tns:EncodedValue" />
+          <s:element minOccurs="0" maxOccurs="1" name="Demo" type="tns:EncodedValue" />
+          <s:element minOccurs="0" maxOccurs="1" name="ReleaseDate" type="tns:Date" />
+          <s:element minOccurs="0" maxOccurs="1" name="DiscontinueDate" type="tns:Date" />
+          <s:element minOccurs="0" maxOccurs="1" name="LastModifiedDate" type="tns:Date" />
+          <s:element minOccurs="0" maxOccurs="1" name="VendorCode" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="StartDates" type="tns:ArrayOfDate" />
+          <s:element minOccurs="0" maxOccurs="1" name="RelatedCourses" type="tns:ArrayOfCourseCode" />
+          <s:element minOccurs="0" maxOccurs="1" name="StudentReviews" type="tns:ArrayOfStudentReview" />
+          <s:element minOccurs="0" maxOccurs="1" name="CategoryIDs" type="tns:ArrayOfCategoryID" />
+        </s:sequence>
+        <s:attribute name="CourseCode" type="s:string" />
+      </s:complexType>
+      <s:complexType name="Duration" mixed="true" />
+      <s:complexType name="ArrayOfDate">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="StartDate" nillable="true" type="tns:Date" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfCourseCode">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="CourseCode" nillable="true" type="tns:CourseCode" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="CourseCode">
+        <s:simpleContent>
+          <s:extension base="s:string">
+            <s:attribute name="order" type="s:int" />
+          </s:extension>
+        </s:simpleContent>
+      </s:complexType>
+      <s:complexType name="ArrayOfStudentReview">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="StudentReview" nillable="true" type="tns:StudentReview" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="StudentReview">
+        <s:simpleContent>
+          <s:extension base="s:string">
+            <s:attribute name="type" type="tns:EncodedValueType" use="required" />
+            <s:attribute name="order" type="s:int" use="required" />
+          </s:extension>
+        </s:simpleContent>
+      </s:complexType>
+      <s:complexType name="ArrayOfCategoryID">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="CategoryID" nillable="true" type="tns:CategoryID" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="CategoryID">
+        <s:simpleContent>
+          <s:extension base="s:int">
+            <s:attribute name="primary" type="s:string" />
+          </s:extension>
+        </s:simpleContent>
+      </s:complexType>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="GetCategoriesSoapIn">
+    <wsdl:part name="parameters" element="tns:GetCategories" />
+  </wsdl:message>
+  <wsdl:message name="GetCategoriesSoapOut">
+    <wsdl:part name="parameters" element="tns:GetCategoriesResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetCategoryListSoapIn">
+    <wsdl:part name="parameters" element="tns:GetCategoryList" />
+  </wsdl:message>
+  <wsdl:message name="GetCategoryListSoapOut">
+    <wsdl:part name="parameters" element="tns:GetCategoryListResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetCoursesSoapIn">
+    <wsdl:part name="parameters" element="tns:GetCourses" />
+  </wsdl:message>
+  <wsdl:message name="GetCoursesSoapOut">
+    <wsdl:part name="parameters" element="tns:GetCoursesResponse" />
+  </wsdl:message>
+  <wsdl:portType name="CourseInformationServiceSoap">
+    <wsdl:operation name="GetCategories">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Returns list of category info objects.&lt;br/&gt;&amp;nbsp;&lt;i&gt;For details see &lt;a href='./Instructions.aspx?s=CourseInformationService&amp;m=GetCategories'&gt;Instructions&lt;/a&gt;&lt;/i&gt;</wsdl:documentation>
+      <wsdl:input message="tns:GetCategoriesSoapIn" />
+      <wsdl:output message="tns:GetCategoriesSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCategoryList">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Gets top level category tree.&lt;br/&gt;&amp;nbsp;&lt;i&gt;For details see &lt;a href='./Instructions.aspx?s=CourseInformationService&amp;m=GetCategoryList'&gt;Instructions&lt;/a&gt;&lt;/i&gt;</wsdl:documentation>
+      <wsdl:input message="tns:GetCategoryListSoapIn" />
+      <wsdl:output message="tns:GetCategoryListSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCourses">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Gets courses offered by site found using provided filter and returning fields specified.&lt;br/&gt;&amp;nbsp;&lt;i&gt;For details see &lt;a href='./Instructions.aspx?s=CourseInformationService&amp;m=GetCourses'&gt;Instructions&lt;/a&gt;&lt;/i&gt;</wsdl:documentation>
+      <wsdl:input message="tns:GetCoursesSoapIn" />
+      <wsdl:output message="tns:GetCoursesSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="CourseInformationServiceSoap" type="tns:CourseInformationServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetCategories">
+      <soap:operation soapAction="https://api.ed2go.com/GetCategories" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCategoryList">
+      <soap:operation soapAction="https://api.ed2go.com/GetCategoryList" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCourses">
+      <soap:operation soapAction="https://api.ed2go.com/GetCourses" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="CourseInformationServiceSoap12" type="tns:CourseInformationServiceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetCategories">
+      <soap12:operation soapAction="https://api.ed2go.com/GetCategories" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCategoryList">
+      <soap12:operation soapAction="https://api.ed2go.com/GetCategoryList" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCourses">
+      <soap12:operation soapAction="https://api.ed2go.com/GetCourses" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="CourseInformationService">
+    <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">&lt;div style='background-color: #003366; color: White; text-align: center; padding: 20px;font-size: larger; font-weight: bold;'&gt;VERSION 4.1&lt;br/&gt;(&lt;a href='./WhatsNew.aspx' target='_blank' style='color:White;font-size:.8em;'&gt;Whats New?&lt;/a&gt;)&lt;/div&gt;</wsdl:documentation>
+    <wsdl:port name="CourseInformationServiceSoap" binding="tns:CourseInformationServiceSoap">
+      <soap:address location="http://api.ed2go.com/Sandbox/API/4.1/CourseInformationService.asmx" />
+    </wsdl:port>
+    <wsdl:port name="CourseInformationServiceSoap12" binding="tns:CourseInformationServiceSoap12">
+      <soap12:address location="http://api.ed2go.com/Sandbox/API/4.1/CourseInformationService.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>
