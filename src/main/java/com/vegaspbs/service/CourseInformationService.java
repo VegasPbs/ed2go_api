@@ -1,6 +1,6 @@
 package com.vegaspbs.service;
 
-import com.vegaspbs.exceptions.CourseIdNotFoundException;
+import com.vegaspbs.exceptions.CourseCodeNotFoundException;
 import com.vegaspbs.types.ed2go.*;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -18,10 +18,10 @@ public class CourseInformationService {
     @Autowired
     private WebServiceTemplate webServiceTemplate;
 
-    public Course getCourseByVendorId(String vendorCourseId) throws CourseIdNotFoundException{
+    public Course getCourseByCourseCode(String courseCode) throws CourseCodeNotFoundException {
 
         ArrayOfString codes = new ArrayOfString();
-        codes.getCourseCode().add(vendorCourseId);
+        codes.getCourseCode().add(courseCode);
 
         CoursesFilter filter = new CoursesFilter();
         filter.setCourseCodes(codes);
@@ -37,7 +37,7 @@ public class CourseInformationService {
         GetCoursesResponse response = (GetCoursesResponse) webServiceTemplate.marshalSendAndReceive(request);
 
         if (!response.getCoursesGetResponse().getResult().isSuccess()){
-            throw new CourseIdNotFoundException(vendorCourseId);
+            throw new CourseCodeNotFoundException(courseCode);
         }
 
         return response.getCoursesGetResponse().getCourses().getCourse().get(0);
