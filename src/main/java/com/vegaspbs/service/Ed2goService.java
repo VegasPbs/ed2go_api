@@ -1,7 +1,6 @@
 package com.vegaspbs.service;
 
-import com.vegaspbs.types.ed2go.Course;
-import com.vegaspbs.types.ed2go.GetCourses;
+import com.vegaspbs.types.ed2go.*;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -19,7 +18,25 @@ public class Ed2goService {
     @Autowired
     private WebServiceTemplate webServiceTemplate;
 
-    public Course getCourseByVendorId() {
+    public Course getCourseByVendorId(String vendorId) {
+
+        ArrayOfString codes = new ArrayOfString();
+        codes.getCourseCode().add(vendorId);
+
+        CoursesFilter filter = new CoursesFilter();
+        filter.setCourseCodes(codes);
+
+        ArrayOfCourseIncludeField fields = new ArrayOfCourseIncludeField();
+        fields.getFieldName().add(CourseIncludeField.TITLE);
+
         GetCourses request = new GetCourses();
+        request.setAPIKey(API_KEY);
+        request.setCoursesFilter(filter);
+        request.setIncludeFields(fields);
+
+        GetCoursesResponse response = (GetCoursesResponse) webServiceTemplate.marshalSendAndReceive(request);
+        Course course = response.getCoursesGetResponse().getCourses().getCourse().get(0);
+
+        return course;
     }
 }
