@@ -2,7 +2,90 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0bad5a6e-1c49-4e63-98ef-c2dfba1667e9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/melodymoselle/integration/CourseInformationServiceTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/META-INF/sun-jaxb.episode" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/vegaspbs/ed2goInterface/integration/CourseInformationServiceTest.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/com/melodymoselle/integration/CourseInformationServiceTest.java" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/Ed2goApiApplication.java" afterPath="$PROJECT_DIR$/src/main/java/com/vegaspbs/ed2goInterface/Ed2goApiApplication.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/vegaspbs/exceptions/CourseCodeNotFoundException.java" afterPath="$PROJECT_DIR$/src/main/java/com/vegaspbs/ed2goInterface/exceptions/CourseCodeNotFoundException.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/vegaspbs/service/CourseInformationService.java" afterPath="$PROJECT_DIR$/src/main/java/com/vegaspbs/ed2goInterface/service/CourseInformationService.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/vegaspbs/service/ExceptionHandler.java" afterPath="$PROJECT_DIR$/src/main/java/com/vegaspbs/ed2goInterface/service/ExceptionHandler.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/vegaspbs/service/ServiceConfig.java" afterPath="$PROJECT_DIR$/src/main/java/com/vegaspbs/ed2goInterface/service/ServiceConfig.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/vegaspbs/types/ed2go/ArrayOfCategoryID.java" afterPath="$PROJECT_DIR$/src/main/java/com/vegaspbs/ed2goInterface/types/ed2go/ArrayOfCategoryID.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/vegaspbs/types/ed2go/ArrayOfCourse.java" afterPath="$PROJECT_DIR$/src/main/java/com/vegaspbs/ed2goInterface/types/ed2go/ArrayOfCourse.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/vegaspbs/types/ed2go/ArrayOfCourseCode.java" afterPath="$PROJECT_DIR$/src/main/java/com/vegaspbs/ed2goInterface/types/ed2go/ArrayOfCourseCode.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/vegaspbs/types/ed2go/ArrayOfCourseIncludeField.java" afterPath="$PROJECT_DIR$/src/main/java/com/vegaspbs/ed2goInterface/types/ed2go/ArrayOfCourseIncludeField.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/vegaspbs/types/ed2go/ArrayOfDate.java" afterPath="$PROJECT_DIR$/src/main/java/com/vegaspbs/ed2goInterface/types/ed2go/ArrayOfDate.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/vegaspbs/types/ed2go/ArrayOfError.java" afterPath="$PROJECT_DIR$/src/main/java/com/vegaspbs/ed2goInterface/types/ed2go/ArrayOfError.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/vegaspbs/types/ed2go/ArrayOfInt.java" afterPath="$PROJECT_DIR$/src/main/java/com/vegaspbs/ed2goInterface/types/ed2go/ArrayOfInt.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/vegaspbs/types/ed2go/ArrayOfString.java" afterPath="$PROJECT_DIR$/src/main/java/com/vegaspbs/ed2goInterface/types/ed2go/ArrayOfString.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/vegaspbs/types/ed2go/ArrayOfString1.java" afterPath="$PROJECT_DIR$/src/main/java/com/vegaspbs/ed2goInterface/types/ed2go/ArrayOfString1.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/vegaspbs/types/ed2go/ArrayOfStudentReview.java" afterPath="$PROJECT_DIR$/src/main/java/com/vegaspbs/ed2goInterface/types/ed2go/ArrayOfStudentReview.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/vegaspbs/types/ed2go/Categories.java" afterPath="$PROJECT_DIR$/src/main/java/com/vegaspbs/ed2goInterface/types/ed2go/Categories.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/vegaspbs/types/ed2go/Category.java" afterPath="$PROJECT_DIR$/src/main/java/com/vegaspbs/ed2goInterface/types/ed2go/Category.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/vegaspbs/types/ed2go/CategoryID.java" afterPath="$PROJECT_DIR$/src/main/java/com/vegaspbs/ed2goInterface/types/ed2go/CategoryID.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/vegaspbs/types/ed2go/CategoryListResponse.java" afterPath="$PROJECT_DIR$/src/main/java/com/vegaspbs/ed2goInterface/types/ed2go/CategoryListResponse.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/vegaspbs/types/ed2go/Course.java" afterPath="$PROJECT_DIR$/src/main/java/com/vegaspbs/ed2goInterface/types/ed2go/Course.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/vegaspbs/types/ed2go/CourseCode.java" afterPath="$PROJECT_DIR$/src/main/java/com/vegaspbs/ed2goInterface/types/ed2go/CourseCode.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/vegaspbs/types/ed2go/CourseIncludeField.java" afterPath="$PROJECT_DIR$/src/main/java/com/vegaspbs/ed2goInterface/types/ed2go/CourseIncludeField.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/vegaspbs/types/ed2go/CoursesFilter.java" afterPath="$PROJECT_DIR$/src/main/java/com/vegaspbs/ed2goInterface/types/ed2go/CoursesFilter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/vegaspbs/types/ed2go/CoursesResponse.java" afterPath="$PROJECT_DIR$/src/main/java/com/vegaspbs/ed2goInterface/types/ed2go/CoursesResponse.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/vegaspbs/types/ed2go/Date.java" afterPath="$PROJECT_DIR$/src/main/java/com/vegaspbs/ed2goInterface/types/ed2go/Date.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/vegaspbs/types/ed2go/DateRange.java" afterPath="$PROJECT_DIR$/src/main/java/com/vegaspbs/ed2goInterface/types/ed2go/DateRange.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/vegaspbs/types/ed2go/Duration.java" afterPath="$PROJECT_DIR$/src/main/java/com/vegaspbs/ed2goInterface/types/ed2go/Duration.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/vegaspbs/types/ed2go/EncodedValue.java" afterPath="$PROJECT_DIR$/src/main/java/com/vegaspbs/ed2goInterface/types/ed2go/EncodedValue.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/vegaspbs/types/ed2go/EncodedValueType.java" afterPath="$PROJECT_DIR$/src/main/java/com/vegaspbs/ed2goInterface/types/ed2go/EncodedValueType.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/vegaspbs/types/ed2go/Error.java" afterPath="$PROJECT_DIR$/src/main/java/com/vegaspbs/ed2goInterface/types/ed2go/Error.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/vegaspbs/types/ed2go/ErrorCode.java" afterPath="$PROJECT_DIR$/src/main/java/com/vegaspbs/ed2goInterface/types/ed2go/ErrorCode.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/vegaspbs/types/ed2go/GetCategories.java" afterPath="$PROJECT_DIR$/src/main/java/com/vegaspbs/ed2goInterface/types/ed2go/GetCategories.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/vegaspbs/types/ed2go/GetCategoriesResponse.java" afterPath="$PROJECT_DIR$/src/main/java/com/vegaspbs/ed2goInterface/types/ed2go/GetCategoriesResponse.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/vegaspbs/types/ed2go/GetCategoryList.java" afterPath="$PROJECT_DIR$/src/main/java/com/vegaspbs/ed2goInterface/types/ed2go/GetCategoryList.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/vegaspbs/types/ed2go/GetCategoryListResponse.java" afterPath="$PROJECT_DIR$/src/main/java/com/vegaspbs/ed2goInterface/types/ed2go/GetCategoryListResponse.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/vegaspbs/types/ed2go/GetCourses.java" afterPath="$PROJECT_DIR$/src/main/java/com/vegaspbs/ed2goInterface/types/ed2go/GetCourses.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/vegaspbs/types/ed2go/GetCoursesResponse.java" afterPath="$PROJECT_DIR$/src/main/java/com/vegaspbs/ed2goInterface/types/ed2go/GetCoursesResponse.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/vegaspbs/types/ed2go/ObjectFactory.java" afterPath="$PROJECT_DIR$/src/main/java/com/vegaspbs/ed2goInterface/types/ed2go/ObjectFactory.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/vegaspbs/types/ed2go/Result.java" afterPath="$PROJECT_DIR$/src/main/java/com/vegaspbs/ed2goInterface/types/ed2go/Result.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/vegaspbs/types/ed2go/StartDateRange.java" afterPath="$PROJECT_DIR$/src/main/java/com/vegaspbs/ed2goInterface/types/ed2go/StartDateRange.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/vegaspbs/types/ed2go/StudentReview.java" afterPath="$PROJECT_DIR$/src/main/java/com/vegaspbs/ed2goInterface/types/ed2go/StudentReview.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/vegaspbs/types/ed2go/package-info.java" afterPath="$PROJECT_DIR$/src/main/java/com/vegaspbs/ed2goInterface/types/ed2go/package-info.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/generated-sources/xjc/META-INF/sun-jaxb.episode" afterPath="$PROJECT_DIR$/target/generated-sources/xjc/META-INF/sun-jaxb.episode" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/generated-sources/xjc/https/api_ed2go/ArrayOfCategoryID.java" afterPath="$PROJECT_DIR$/target/generated-sources/xjc/https/api_ed2go/ArrayOfCategoryID.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/generated-sources/xjc/https/api_ed2go/ArrayOfCourse.java" afterPath="$PROJECT_DIR$/target/generated-sources/xjc/https/api_ed2go/ArrayOfCourse.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/generated-sources/xjc/https/api_ed2go/ArrayOfCourseCode.java" afterPath="$PROJECT_DIR$/target/generated-sources/xjc/https/api_ed2go/ArrayOfCourseCode.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/generated-sources/xjc/https/api_ed2go/ArrayOfCourseIncludeField.java" afterPath="$PROJECT_DIR$/target/generated-sources/xjc/https/api_ed2go/ArrayOfCourseIncludeField.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/generated-sources/xjc/https/api_ed2go/ArrayOfDate.java" afterPath="$PROJECT_DIR$/target/generated-sources/xjc/https/api_ed2go/ArrayOfDate.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/generated-sources/xjc/https/api_ed2go/ArrayOfError.java" afterPath="$PROJECT_DIR$/target/generated-sources/xjc/https/api_ed2go/ArrayOfError.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/generated-sources/xjc/https/api_ed2go/ArrayOfInt.java" afterPath="$PROJECT_DIR$/target/generated-sources/xjc/https/api_ed2go/ArrayOfInt.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/generated-sources/xjc/https/api_ed2go/ArrayOfString.java" afterPath="$PROJECT_DIR$/target/generated-sources/xjc/https/api_ed2go/ArrayOfString.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/generated-sources/xjc/https/api_ed2go/ArrayOfString1.java" afterPath="$PROJECT_DIR$/target/generated-sources/xjc/https/api_ed2go/ArrayOfString1.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/generated-sources/xjc/https/api_ed2go/ArrayOfStudentReview.java" afterPath="$PROJECT_DIR$/target/generated-sources/xjc/https/api_ed2go/ArrayOfStudentReview.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/generated-sources/xjc/https/api_ed2go/Categories.java" afterPath="$PROJECT_DIR$/target/generated-sources/xjc/https/api_ed2go/Categories.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/generated-sources/xjc/https/api_ed2go/Category.java" afterPath="$PROJECT_DIR$/target/generated-sources/xjc/https/api_ed2go/Category.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/generated-sources/xjc/https/api_ed2go/CategoryID.java" afterPath="$PROJECT_DIR$/target/generated-sources/xjc/https/api_ed2go/CategoryID.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/generated-sources/xjc/https/api_ed2go/CategoryListResponse.java" afterPath="$PROJECT_DIR$/target/generated-sources/xjc/https/api_ed2go/CategoryListResponse.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/generated-sources/xjc/https/api_ed2go/Course.java" afterPath="$PROJECT_DIR$/target/generated-sources/xjc/https/api_ed2go/Course.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/generated-sources/xjc/https/api_ed2go/CourseCode.java" afterPath="$PROJECT_DIR$/target/generated-sources/xjc/https/api_ed2go/CourseCode.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/generated-sources/xjc/https/api_ed2go/CourseIncludeField.java" afterPath="$PROJECT_DIR$/target/generated-sources/xjc/https/api_ed2go/CourseIncludeField.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/generated-sources/xjc/https/api_ed2go/CoursesFilter.java" afterPath="$PROJECT_DIR$/target/generated-sources/xjc/https/api_ed2go/CoursesFilter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/generated-sources/xjc/https/api_ed2go/CoursesResponse.java" afterPath="$PROJECT_DIR$/target/generated-sources/xjc/https/api_ed2go/CoursesResponse.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/generated-sources/xjc/https/api_ed2go/Date.java" afterPath="$PROJECT_DIR$/target/generated-sources/xjc/https/api_ed2go/Date.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/generated-sources/xjc/https/api_ed2go/DateRange.java" afterPath="$PROJECT_DIR$/target/generated-sources/xjc/https/api_ed2go/DateRange.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/generated-sources/xjc/https/api_ed2go/Duration.java" afterPath="$PROJECT_DIR$/target/generated-sources/xjc/https/api_ed2go/Duration.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/generated-sources/xjc/https/api_ed2go/EncodedValue.java" afterPath="$PROJECT_DIR$/target/generated-sources/xjc/https/api_ed2go/EncodedValue.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/generated-sources/xjc/https/api_ed2go/EncodedValueType.java" afterPath="$PROJECT_DIR$/target/generated-sources/xjc/https/api_ed2go/EncodedValueType.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/generated-sources/xjc/https/api_ed2go/Error.java" afterPath="$PROJECT_DIR$/target/generated-sources/xjc/https/api_ed2go/Error.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/generated-sources/xjc/https/api_ed2go/ErrorCode.java" afterPath="$PROJECT_DIR$/target/generated-sources/xjc/https/api_ed2go/ErrorCode.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/generated-sources/xjc/https/api_ed2go/GetCategories.java" afterPath="$PROJECT_DIR$/target/generated-sources/xjc/https/api_ed2go/GetCategories.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/generated-sources/xjc/https/api_ed2go/GetCategoriesResponse.java" afterPath="$PROJECT_DIR$/target/generated-sources/xjc/https/api_ed2go/GetCategoriesResponse.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/generated-sources/xjc/https/api_ed2go/GetCategoryList.java" afterPath="$PROJECT_DIR$/target/generated-sources/xjc/https/api_ed2go/GetCategoryList.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/generated-sources/xjc/https/api_ed2go/GetCategoryListResponse.java" afterPath="$PROJECT_DIR$/target/generated-sources/xjc/https/api_ed2go/GetCategoryListResponse.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/generated-sources/xjc/https/api_ed2go/GetCourses.java" afterPath="$PROJECT_DIR$/target/generated-sources/xjc/https/api_ed2go/GetCourses.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/generated-sources/xjc/https/api_ed2go/GetCoursesResponse.java" afterPath="$PROJECT_DIR$/target/generated-sources/xjc/https/api_ed2go/GetCoursesResponse.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/generated-sources/xjc/https/api_ed2go/ObjectFactory.java" afterPath="$PROJECT_DIR$/target/generated-sources/xjc/https/api_ed2go/ObjectFactory.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/generated-sources/xjc/https/api_ed2go/Result.java" afterPath="$PROJECT_DIR$/target/generated-sources/xjc/https/api_ed2go/Result.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/generated-sources/xjc/https/api_ed2go/StartDateRange.java" afterPath="$PROJECT_DIR$/target/generated-sources/xjc/https/api_ed2go/StartDateRange.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/generated-sources/xjc/https/api_ed2go/StudentReview.java" afterPath="$PROJECT_DIR$/target/generated-sources/xjc/https/api_ed2go/StudentReview.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/generated-sources/xjc/https/api_ed2go/package-info.java" afterPath="$PROJECT_DIR$/target/generated-sources/xjc/https/api_ed2go/package-info.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -17,112 +100,34 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="CourseInformationService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/vegaspbs/service/CourseInformationService.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/vegaspbs/ed2goInterface/service/CourseInformationService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-232">
-              <caret line="8" column="61" lean-forward="false" selection-start-line="8" selection-start-column="61" selection-end-line="8" selection-end-column="61" />
+            <state relative-caret-position="440">
+              <caret line="18" column="22" lean-forward="false" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ServiceConfig.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/vegaspbs/ed2goInterface/service/ServiceConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="158">
+              <caret line="11" column="114" lean-forward="false" selection-start-line="11" selection-start-column="114" selection-end-line="11" selection-end-column="114" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="CourseInformationServiceTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/melodymoselle/integration/CourseInformationServiceTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/vegaspbs/ed2goInterface/integration/CourseInformationServiceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+            <state relative-caret-position="351">
+              <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GetCoursesResponse.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/vegaspbs/types/ed2go/GetCoursesResponse.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-89">
-              <caret line="41" column="13" lean-forward="false" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CoursesResponse.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/vegaspbs/types/ed2go/CoursesResponse.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-34">
-              <caret line="41" column="13" lean-forward="false" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ArrayOfCourse.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/vegaspbs/types/ed2go/ArrayOfCourse.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="682">
-              <caret line="41" column="13" lean-forward="false" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
-              <folding>
-                <element signature="e#0#2196#0" expanded="false" />
-                <element signature="imports" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ArrayOfCourseIncludeField.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/vegaspbs/types/ed2go/ArrayOfCourseIncludeField.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="836">
-              <caret line="49" column="48" lean-forward="false" selection-start-line="49" selection-start-column="48" selection-end-line="49" selection-end-column="48" />
-              <folding>
-                <element signature="e#0#2404#0" expanded="false" />
-                <element signature="imports" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CourseIncludeField.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/vegaspbs/types/ed2go/CourseIncludeField.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2068">
-              <caret line="103" column="0" lean-forward="false" selection-start-line="103" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#3685#0" expanded="false" />
-                <element signature="imports" expanded="false" />
-                <element signature="e#3332#3333#0" expanded="false" />
-                <element signature="e#3357#3358#0" expanded="false" />
-                <element signature="e#3386#3387#0" expanded="false" />
-                <element signature="e#3414#3415#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GetCourses.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/vegaspbs/types/ed2go/GetCourses.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="946">
-              <caret line="52" column="39" lean-forward="false" selection-start-line="52" selection-start-column="14" selection-end-line="52" selection-end-column="39" />
-              <folding>
-                <element signature="e#0#3385#0" expanded="false" />
-                <element signature="imports" expanded="false" />
-                <element signature="e#2023#2024#0" expanded="false" />
-                <element signature="e#2052#2053#0" expanded="false" />
-                <element signature="e#2253#2254#0" expanded="false" />
-                <element signature="e#2288#2289#0" expanded="false" />
-                <element signature="e#2503#2504#0" expanded="false" />
-                <element signature="e#2539#2540#0" expanded="false" />
-                <element signature="e#2768#2769#0" expanded="false" />
-                <element signature="e#2810#2811#0" expanded="false" />
-                <element signature="e#3049#3050#0" expanded="false" />
-                <element signature="e#3085#3086#0" expanded="false" />
-                <element signature="e#3338#3339#0" expanded="false" />
-                <element signature="e#3380#3381#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -151,15 +156,24 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/vegaspbs/api_ed2go/Date.java" />
         <option value="$PROJECT_DIR$/src/main/java/Ed2goApiService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/vegaspbs/service/ServiceConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/Ed2goApiApplication.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/vegaspbs/models/Error.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/vegaspbs/exceptions/CourseNotFoundException.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/vegaspbs/service/Ed2goService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/vegaspbs/service/CourseInformationService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/vegaspbs/service/ExceptionHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/vegaspbs/exceptions/CourseIdNotFoundException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/vegaspbs/exceptions/CourseCodeNotFoundException.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/melodymoselle/integration/CourseInformationServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/vegaspbs/Ed2goApiApplication.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/vegaspbs/ed2goInterface/ed2goInterface/integration/CourseInformationServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/vegaspbs/ed2goInterface/integration/CourseInformationServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/vegaspbs/integration/CourseInformationServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/vegaspbs/service/CourseInformationService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/vegaspbs/service/ServiceConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/vegaspbs/ed2goInterface/service/ServiceConfig.java" />
+        <option value="/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/jre/lib/rt.jar!/sun/reflect/NativeMethodAccessorImpl.class" />
+        <option value="$PROJECT_DIR$/src/main/java/com/vegaspbs/ed2goInterface/config/PropertiesConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/vegaspbs/ed2goInterface/service/CourseInformationService.java" />
       </list>
     </option>
   </component>
@@ -192,8 +206,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -256,72 +268,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="integration" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ed2go_api" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ed2go_api" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ed2go_api" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ed2go_api" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ed2go_api" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ed2go_api" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="vegaspbs" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -343,12 +289,82 @@
               <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ed2go_api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ed2go_api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="vegaspbs" />
+              <option name="myItemId" value="META-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ed2go_api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ed2go_api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ed2goInterface" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ed2go_api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ed2go_api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ed2goInterface" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -356,38 +372,10 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ed2go_api" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ed2go_api" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vegaspbs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="exceptions" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="AndroidView" />
     </panes>
@@ -398,6 +386,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java" />
       <recent name="C:\projects\other\ed2go_api\src\main\java\com\vegaspbs" />
     </key>
   </component>
@@ -413,7 +402,67 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.CourseInformationServiceTest.shouldReturnCourse">
+    <configuration default="false" name="CourseInformationServiceTest.shouldReturnCourse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.vegaspbs.ed2goInterface.integration.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="ed2go_api" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.vegaspbs.ed2goInterface.integration" />
+      <option name="MAIN_CLASS_NAME" value="com.vegaspbs.ed2goInterface.integration.CourseInformationServiceTest" />
+      <option name="METHOD_NAME" value="shouldReturnCourse" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs>
+        <env name="standard_SB_api_key" value="16485b7f-2fcd-4bd8-b2c5-565065e1363c" />
+        <env name="career_SB_api_key" value="dccc58a2-24db-4e76-a480-e881b5c427ce" />
+        <env name="pro_SB_api_key" value="a082efc9-bb55-4892-9842-8265fdbc10c7" />
+      </envs>
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="CourseInformationServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.vegaspbs.integration.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="ed2go_api" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.vegaspbs.integration" />
+      <option name="MAIN_CLASS_NAME" value="com.vegaspbs.integration.CourseInformationServiceTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs>
+        <env name="standard_SB_api_key" value="16485b7f-2fcd-4bd8-b2c5-565065e1363c" />
+        <env name="career_SB_api_key" value="dccc58a2-24db-4e76-a480-e881b5c427ce" />
+        <env name="pro_SB_api_key" value="a082efc9-bb55-4892-9842-8265fdbc10c7" />
+      </envs>
+      <patterns />
+      <method />
+    </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
@@ -525,18 +574,22 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="singleModule" />
       </option>
-      <envs />
+      <envs>
+        <env name="standard_SB_api_key" value="16485b7f-2fcd-4bd8-b2c5-565065e1363c" />
+        <env name="career_SB_api_key" value="dccc58a2-24db-4e76-a480-e881b5c427ce" />
+        <env name="pro_SB_api_key" value="a082efc9-bb55-4892-9842-8265fdbc10c7" />
+      </envs>
       <patterns />
       <method />
     </configuration>
@@ -655,6 +708,17 @@
       <setting name="rowsRange" value="" />
       <method />
     </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="JUnit.CourseInformationServiceTest.shouldReturnCourse" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.CourseInformationServiceTest" />
+    </list>
+    <recent_temporary>
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.CourseInformationServiceTest.shouldReturnCourse" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.CourseInformationServiceTest.shouldReturnCourse" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.CourseInformationServiceTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -669,36 +733,68 @@
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="CourseInformationServiceTest_shouldReturnCourse - 2017.10.10 at 15h 04m 05s.xml">
+      <configuration name="CourseInformationServiceTest.shouldReturnCourse" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CourseInformationServiceTest_shouldReturnCourse - 2017.10.10 at 15h 04m 54s.xml">
+      <configuration name="CourseInformationServiceTest.shouldReturnCourse" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CourseInformationServiceTest_shouldReturnCourse - 2017.10.10 at 15h 05m 24s.xml">
+      <configuration name="CourseInformationServiceTest.shouldReturnCourse" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CourseInformationServiceTest_shouldReturnCourse - 2017.10.10 at 15h 10m 15s.xml">
+      <configuration name="CourseInformationServiceTest.shouldReturnCourse" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CourseInformationServiceTest_shouldReturnCourse - 2017.10.10 at 15h 15m 53s.xml">
+      <configuration name="CourseInformationServiceTest.shouldReturnCourse" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CourseInformationServiceTest_shouldReturnCourse - 2017.10.10 at 15h 25m 43s.xml">
+      <configuration name="CourseInformationServiceTest.shouldReturnCourse" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CourseInformationServiceTest_shouldReturnCourse - 2017.10.10 at 15h 30m 05s.xml">
+      <configuration name="CourseInformationServiceTest.shouldReturnCourse" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CourseInformationServiceTest_shouldReturnCourse - 2017.10.10 at 15h 40m 44s.xml">
+      <configuration name="CourseInformationServiceTest.shouldReturnCourse" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CourseInformationServiceTest_shouldReturnCourse - 2017.10.10 at 15h 45m 05s.xml">
+      <configuration name="CourseInformationServiceTest.shouldReturnCourse" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CourseInformationServiceTest_shouldReturnCourse_(1) - 2017.10.10 at 14h 33m 05s.xml">
+      <configuration name="CourseInformationServiceTest.shouldReturnCourse (1)" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1280" height="800" extended-state="6" />
+    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="MaxCompute Job" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="MaxCompute Job Explorer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="MaxCompute Job" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="MaxCompute Job Explorer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="MaxCompute Project Explorer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.70013756" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="MaxCompute Project Explorer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287483" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5254471" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287483" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287483" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.272578" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="MaxCompute Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287483" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="MaxCompute Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -706,6 +802,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287483" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -739,117 +836,69 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/vegaspbs/ed2goInterface/integration/CourseInformationServiceTest.java</url>
+          <line>29</line>
+          <properties />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="3" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/vegaspbs/service/CourseInformationService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/vegaspbs/types/ed2go/Result.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vegaspbs/ed2goInterface/types/ed2go/CoursesResponse.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="726">
           <caret line="41" column="13" lean-forward="false" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/vegaspbs/types/ed2go/GetCoursesResponse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="704">
-          <caret line="41" column="13" lean-forward="false" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/vegaspbs/types/ed2go/CoursesResponse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="726">
-          <caret line="41" column="13" lean-forward="false" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/vegaspbs/types/ed2go/ArrayOfCourse.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vegaspbs/ed2goInterface/types/ed2go/ArrayOfCourse.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="682">
           <caret line="41" column="13" lean-forward="false" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#2196#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/vegaspbs/types/ed2go/ArrayOfCourseIncludeField.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vegaspbs/ed2goInterface/types/ed2go/ArrayOfCourseIncludeField.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="836">
           <caret line="49" column="48" lean-forward="true" selection-start-line="49" selection-start-column="48" selection-end-line="49" selection-end-column="48" />
-          <folding>
-            <element signature="e#0#2404#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/vegaspbs/types/ed2go/CourseIncludeField.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vegaspbs/ed2goInterface/types/ed2go/CourseIncludeField.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2068">
           <caret line="103" column="0" lean-forward="true" selection-start-line="103" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#3685#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#3332#3333#0" expanded="false" />
-            <element signature="e#3357#3358#0" expanded="false" />
-            <element signature="e#3386#3387#0" expanded="false" />
-            <element signature="e#3414#3415#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/vegaspbs/types/ed2go/GetCourses.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vegaspbs/ed2goInterface/types/ed2go/GetCourses.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="946">
           <caret line="52" column="39" lean-forward="false" selection-start-line="52" selection-start-column="14" selection-end-line="52" selection-end-column="39" />
-          <folding>
-            <element signature="e#0#3385#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#2023#2024#0" expanded="false" />
-            <element signature="e#2052#2053#0" expanded="false" />
-            <element signature="e#2253#2254#0" expanded="false" />
-            <element signature="e#2288#2289#0" expanded="false" />
-            <element signature="e#2503#2504#0" expanded="false" />
-            <element signature="e#2539#2540#0" expanded="false" />
-            <element signature="e#2768#2769#0" expanded="false" />
-            <element signature="e#2810#2811#0" expanded="false" />
-            <element signature="e#3049#3050#0" expanded="false" />
-            <element signature="e#3085#3086#0" expanded="false" />
-            <element signature="e#3338#3339#0" expanded="false" />
-            <element signature="e#3380#3381#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/vegaspbs/types/ed2go/CoursesFilter.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vegaspbs/ed2goInterface/types/ed2go/CoursesFilter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1562">
           <caret line="81" column="25" lean-forward="false" selection-start-line="81" selection-start-column="25" selection-end-line="81" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/vegaspbs/types/ed2go/ArrayOfString.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vegaspbs/ed2goInterface/types/ed2go/ArrayOfString.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1056">
           <caret line="58" column="18" lean-forward="false" selection-start-line="58" selection-start-column="18" selection-end-line="58" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -861,14 +910,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/vegaspbs/service/ServiceConfig.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vegaspbs/ed2goInterface/service/ServiceConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="28" column="34" lean-forward="false" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/vegaspbs/service/CourseInformationService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vegaspbs/ed2goInterface/service/CourseInformationService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="22" column="46" lean-forward="true" selection-start-line="22" selection-start-column="46" selection-end-line="22" selection-end-column="46" />
@@ -878,53 +928,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/vegaspbs/types/ed2go/GetCourses.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vegaspbs/ed2goInterface/types/ed2go/GetCourses.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="799">
           <caret line="56" column="7" lean-forward="true" selection-start-line="56" selection-start-column="7" selection-end-line="56" selection-end-column="7" />
-          <folding>
-            <element signature="e#0#3385#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#2023#2024#0" expanded="false" />
-            <element signature="e#2052#2053#0" expanded="false" />
-            <element signature="e#2253#2254#0" expanded="false" />
-            <element signature="e#2288#2289#0" expanded="false" />
-            <element signature="e#2503#2504#0" expanded="false" />
-            <element signature="e#2539#2540#0" expanded="false" />
-            <element signature="e#2768#2769#0" expanded="false" />
-            <element signature="e#2810#2811#0" expanded="false" />
-            <element signature="e#3049#3050#0" expanded="false" />
-            <element signature="e#3085#3086#0" expanded="false" />
-            <element signature="e#3338#3339#0" expanded="false" />
-            <element signature="e#3380#3381#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/vegaspbs/types/ed2go/CoursesFilter.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vegaspbs/ed2goInterface/types/ed2go/CoursesFilter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="697">
           <caret line="49" column="13" lean-forward="false" selection-start-line="49" selection-start-column="13" selection-end-line="49" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/vegaspbs/types/ed2go/ArrayOfString.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="41" column="13" lean-forward="false" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/vegaspbs/types/ed2go/ArrayOfString1.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vegaspbs/ed2goInterface/types/ed2go/ArrayOfString.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
           <caret line="41" column="13" lean-forward="false" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/vegaspbs/types/ed2go/CourseCode.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vegaspbs/ed2goInterface/types/ed2go/ArrayOfString1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="41" column="13" lean-forward="false" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vegaspbs/ed2goInterface/types/ed2go/CourseCode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
           <caret line="38" column="13" lean-forward="false" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
@@ -959,7 +991,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/vegaspbs/types/ed2go/Date.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vegaspbs/ed2goInterface/types/ed2go/Date.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-154">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -981,184 +1013,209 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/vegaspbs/service/ServiceConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="28" column="34" lean-forward="false" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/vegaspbs/types/ed2go/ArrayOfString1.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vegaspbs/ed2goInterface/types/ed2go/ArrayOfString1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
           <caret line="41" column="13" lean-forward="false" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/vegaspbs/types/ed2go/CourseCode.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vegaspbs/ed2goInterface/types/ed2go/CourseCode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="38" column="13" lean-forward="false" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/vegaspbs/types/ed2go/ArrayOfString.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vegaspbs/ed2goInterface/types/ed2go/ArrayOfString.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1056">
           <caret line="58" column="18" lean-forward="false" selection-start-line="58" selection-start-column="18" selection-end-line="58" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/vegaspbs/types/ed2go/CoursesFilter.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vegaspbs/ed2goInterface/types/ed2go/CoursesFilter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1562">
           <caret line="81" column="25" lean-forward="false" selection-start-line="81" selection-start-column="25" selection-end-line="81" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/vegaspbs/types/ed2go/CourseIncludeField.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vegaspbs/ed2goInterface/types/ed2go/CourseIncludeField.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2068">
           <caret line="103" column="0" lean-forward="false" selection-start-line="103" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#3685#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#3332#3333#0" expanded="false" />
-            <element signature="e#3357#3358#0" expanded="false" />
-            <element signature="e#3386#3387#0" expanded="false" />
-            <element signature="e#3414#3415#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/vegaspbs/types/ed2go/GetCourses.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vegaspbs/ed2goInterface/types/ed2go/GetCourses.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="946">
           <caret line="52" column="39" lean-forward="false" selection-start-line="52" selection-start-column="14" selection-end-line="52" selection-end-column="39" />
-          <folding>
-            <element signature="e#0#3385#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#2023#2024#0" expanded="false" />
-            <element signature="e#2052#2053#0" expanded="false" />
-            <element signature="e#2253#2254#0" expanded="false" />
-            <element signature="e#2288#2289#0" expanded="false" />
-            <element signature="e#2503#2504#0" expanded="false" />
-            <element signature="e#2539#2540#0" expanded="false" />
-            <element signature="e#2768#2769#0" expanded="false" />
-            <element signature="e#2810#2811#0" expanded="false" />
-            <element signature="e#3049#3050#0" expanded="false" />
-            <element signature="e#3085#3086#0" expanded="false" />
-            <element signature="e#3338#3339#0" expanded="false" />
-            <element signature="e#3380#3381#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/vegaspbs/types/ed2go/ArrayOfCourseIncludeField.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vegaspbs/ed2goInterface/types/ed2go/ArrayOfCourseIncludeField.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="836">
           <caret line="49" column="48" lean-forward="false" selection-start-line="49" selection-start-column="48" selection-end-line="49" selection-end-column="48" />
-          <folding>
-            <element signature="e#0#2404#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/vegaspbs/types/ed2go/ObjectFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2857">
-          <caret line="33" column="13" lean-forward="false" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/vegaspbs/types/ed2go/ArrayOfCourse.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vegaspbs/ed2goInterface/types/ed2go/ArrayOfCourse.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="682">
           <caret line="41" column="13" lean-forward="false" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#2196#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Ed2goApiApplication.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vegaspbs/models/Error.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vegaspbs/ed2goInterface/types/ed2go/GetCoursesResponse.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="7" column="63" lean-forward="false" selection-start-line="7" selection-start-column="63" selection-end-line="7" selection-end-column="63" />
-          <folding>
-            <element signature="e#223#224#0" expanded="true" />
-            <element signature="e#293#294#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/vegaspbs/models/Error.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="16" column="5" lean-forward="false" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/vegaspbs/types/ed2go/GetCoursesResponse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-89">
+        <state relative-caret-position="-155">
           <caret line="41" column="13" lean-forward="false" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/vegaspbs/types/ed2go/CoursesResponse.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vegaspbs/ed2goInterface/types/ed2go/CoursesResponse.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-34">
           <caret line="41" column="13" lean-forward="false" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/vegaspbs/types/ed2go/Result.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vegaspbs/ed2goInterface/types/ed2go/Result.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-3">
           <caret line="41" column="13" lean-forward="false" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/vegaspbs/exceptions/CourseIdNotFoundException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="51" lean-forward="false" selection-start-line="7" selection-start-column="51" selection-end-line="7" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/vegaspbs/service/ExceptionHandler.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vegaspbs/ed2goInterface/service/ExceptionHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
           <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vegaspbs/ed2goInterface/exceptions/CourseCodeNotFoundException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="29" lean-forward="false" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vegaspbs/ed2goInterface/types/ed2go/EncodedValue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="38" column="13" lean-forward="false" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vegaspbs/ed2goInterface/types/ed2go/Course.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-372">
+          <caret line="91" column="19" lean-forward="false" selection-start-line="91" selection-start-column="19" selection-end-line="91" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vegaspbs/ed2goInterface/Ed2goApiApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/META-INF/sun-jaxb.episode">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vegaspbs/ed2goInterface/types/ed2go/ObjectFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="33" column="13" lean-forward="false" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/META-INF/sun-jaxb.episode">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vegaspbs/ed2goInterface/types/ed2go/package-info.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#527#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/jre/lib/rt.jar!/sun/reflect/DelegatingMethodAccessorImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="61">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/src.zip!/java/lang/reflect/Method.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="61">
+          <caret line="497" column="0" lean-forward="false" selection-start-line="497" selection-start-column="0" selection-end-line="497" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/vegaspbs/service/CourseInformationService.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/jre/lib/rt.jar!/sun/reflect/NativeMethodAccessorImpl.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-232">
-          <caret line="8" column="61" lean-forward="false" selection-start-line="8" selection-start-column="61" selection-end-line="8" selection-end-column="61" />
+        <state relative-caret-position="36">
+          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/ws/spring-ws-core/2.4.0.RELEASE/spring-ws-core-2.4.0.RELEASE.jar!/org/springframework/ws/client/core/WebServiceTemplate.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-9463">
+          <caret line="46" column="13" lean-forward="false" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vegaspbs/ed2goInterface/service/ServiceConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="11" column="114" lean-forward="false" selection-start-line="11" selection-start-column="114" selection-end-line="11" selection-end-column="114" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vegaspbs/ed2goInterface/config/PropertiesConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="8" lean-forward="false" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vegaspbs/ed2goInterface/service/CourseInformationService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="18" column="22" lean-forward="false" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/melodymoselle/integration/CourseInformationServiceTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/vegaspbs/ed2goInterface/integration/CourseInformationServiceTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        <state relative-caret-position="351">
+          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
