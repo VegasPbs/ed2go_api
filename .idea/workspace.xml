@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0bad5a6e-1c49-4e63-98ef-c2dfba1667e9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/vegaspbs/ed2goInterface/unit/GetCoursesServiceTests.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/META-INF/sun-jaxb.episode" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/vegaspbs/ed2goInterface/service/CourseInformationService.java" afterPath="$PROJECT_DIR$/src/main/java/com/vegaspbs/ed2goInterface/service/GetCoursesService.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/com/vegaspbs/ed2goInterface/integration/CourseInformationServiceTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/vegaspbs/ed2goInterface/integration/GetCoursesServiceTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="0bad5a6e-1c49-4e63-98ef-c2dfba1667e9" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -673,6 +667,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
