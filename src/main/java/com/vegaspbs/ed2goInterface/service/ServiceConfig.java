@@ -9,7 +9,7 @@ import org.springframework.ws.client.core.WebServiceTemplate;
 public class ServiceConfig {
 
     private static final String CONTEXT_PATH = "com.vegaspbs.ed2goInterface.types.ed2go";
-    private static final String DEFAULT_URI = "https://api.ed2go.com/sandbox/api/4.1/CourseInformationService.asmx";
+    private static final String DEFAULT_URI = "https://api.ed2go.com/sandbox/api/4.1/GetCoursesService.asmx";
 
     @Bean
     Jaxb2Marshaller jaxb2Marshaller() {

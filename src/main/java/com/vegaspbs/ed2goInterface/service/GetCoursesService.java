@@ -11,9 +11,9 @@ import org.springframework.ws.client.core.WebServiceTemplate;
 import org.springframework.ws.soap.client.core.SoapActionCallback;
 
 @Component
-public class CourseInformationService {
+public class GetCoursesService {
 
-    private static final Logger LOGGER = LoggerFactory.getLogger(CourseInformationService.class);
+    private static final Logger LOGGER = LoggerFactory.getLogger(GetCoursesService.class);
 
     @Value("${career_SB_api_key}")
     private String apiKey;

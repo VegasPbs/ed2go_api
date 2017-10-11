@@ -1,6 +1,6 @@
 package com.vegaspbs.ed2goInterface.integration;
 
-import com.vegaspbs.ed2goInterface.service.CourseInformationService;
+import com.vegaspbs.ed2goInterface.service.GetCoursesService;
 import com.vegaspbs.ed2goInterface.types.ed2go.ObjectFactory;
 import com.vegaspbs.ed2goInterface.exceptions.CourseCodeNotFoundException;
 import com.vegaspbs.ed2goInterface.types.ed2go.Course;
@@ -15,13 +15,13 @@ import static org.junit.Assert.assertNotNull;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class CourseInformationServiceTest {
+public class GetCoursesServiceTest {
 
     private static final String courseCode = "GES503";
     private static final String title = "Digital Arts Certificate";
 
     @Autowired
-    private CourseInformationService courseInfo;
+    private GetCoursesService courseInfo;
 
     private Course course = new ObjectFactory().createCourse();
 
